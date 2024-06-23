@@ -1,5 +1,5 @@
 # txtpng
-txtpng is a python package to store text file inside an image using rgb values. Depending on the content, the saved image maybe larger or smaller in terms of file size than the original text.
+txtpng is a python package to store text file inside an image using rgb values. Depending on the content, the saved image maybe larger or smaller in terms of file size than the original text. Tested text file using KJV Bible from Project Gutenberg, original size (4.4 MB) -> txtpng image size (4.0 MB), ~90% of the original size
 
 ## Required Packages
 - Pillow (PIL) `pip install pillow`
