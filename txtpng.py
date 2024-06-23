@@ -35,4 +35,4 @@ def decodepng(image: Image):
             outhex += (outk)
     if len(outhex) % 2 != 0:
         outhex += "1"
-    return (bytes.fromhex(outhex).decode("ascii", "ignore"))
+    return (bytes.fromhex(outhex).decode("utf-8", "ignore"))
